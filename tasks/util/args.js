@@ -1,6 +1,7 @@
+/*处理gulp 命令行输入处理*/
 import yargs from 'yargs';
 
-/*命令行参数*/
+
 const args = yargs
 //区分环境
     .option('production',{
@@ -31,6 +32,6 @@ const args = yargs
         describle:'server port'
     })
 
-    .argv
+    .argv // 会返回对象，里面有之前配置的参数
 
 export default args
