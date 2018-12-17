@@ -1,5 +1,5 @@
 // 模块的整合
-import '@babel/polyfill';
+import 'babel-polyfill';
 import Base from './lottery/base.js';
 import Timer from './lottery/timer.js';
 import Calculate from './lottery/calculate.js';
